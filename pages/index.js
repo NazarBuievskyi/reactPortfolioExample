@@ -49,9 +49,9 @@ export default function Home() {
                             and let's get started!</p>
                     </div>
                     <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-500'>
-                        <AiFillTwitterCircle className='hover:text-twitter transition duration-300  ease-out'/>
-                        <AiFillLinkedin className='hover:text-linkedIn transition duration-300  ease-out'/>
-                        <AiFillYoutube className='hover:text-youtube transition duration-300  ease-out'/>
+                        <AiFillTwitterCircle className='hover:text-twitter transition duration-300  ease-out cursor-pointer'/>
+                        <AiFillLinkedin className='hover:text-linkedIn transition duration-300  ease-out cursor-pointer'/>
+                        <AiFillYoutube className='hover:text-youtube transition duration-300  ease-out cursor-pointer'/>
                     </div>
                     <div
                         className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
